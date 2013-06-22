@@ -3,6 +3,8 @@ require 'formula'
 class MacvimKaoriya < Formula
   homepage 'http://code.google.com/p/macvim-kaoriya/'
   head 'https://github.com/echizen-kurage/macvim.git'
+  url 'https://github.com/echizen-kurage/macvim.git'
+  version '7.3.1223'
 
   depends_on 'cmigemo-mk'
   depends_on 'ctags-objc-ja'
