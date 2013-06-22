@@ -26,7 +26,7 @@ class MacvimKaoriya < Formula
     ENV.append 'vi_cv_path_python3', '/usr/local/bin/python3'
     ENV.append 'vi_cv_path_ruby19', '/usr/local/bin/ruby19'
 
-    system 'CC=clang ./configure', "--prefix=#{prefix}",
+    system './configure', "--prefix=#{prefix}",
                           '--with-features=huge',
                           '--enable-multibyte',
                           '--enable-netbeans',
