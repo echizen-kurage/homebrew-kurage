@@ -11,7 +11,7 @@ class MacvimKaoriya < Formula
   depends_on 'gettext-mk'
 
   def patches
-    patch_level = 1224
+    # patch_level = 1224
     # {'p0' => (1223..patch_level).map { |i| 'ftp://ftp.vim.org/pub/vim/patches/7.3/7.3.%03d' % i }}
   end
 
